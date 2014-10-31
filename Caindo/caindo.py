@@ -97,6 +97,6 @@ while True:
 		veloc += 0.1
 
 	# Verifica se a partícula saiu da tela
-	# Falta implementar
-
+	if part_pos['y']>tela_tam['alt']:
+		part_tela=False #depois da pra implementar alguma coisa a mais, como diminuir a velocidade, etc...
 	pygame.display.flip()
